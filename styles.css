@@ -1,0 +1,80 @@
+* {
+  font-family: "Montserrat";
+}
+.container {
+  width: 905px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leftside {
+  font-size: 15px;
+  float: left;
+  width: 210px;
+  height: 1230px;
+  margin-top: -6px;
+  padding: 25px 45px;
+  background-color: #333333;
+  color: white;
+}
+#main-title {
+  text-align: center;
+  color: blue;
+}
+.protitle {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 2px;
+}
+#navigation {
+  padding-top: 0px;
+  line-height: 36px;
+  font-size: 14px;
+}
+#navigation a:link {
+  text-decoration: none;
+  color: white;
+}
+#navigation i {
+  font-size: 10px;
+}
+.summary h2 {
+  padding-top: 39px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.summary p {
+  padding-top: 7px;
+  font-size: 12px;
+  line-height: 24px;
+  padding-bottom: 66px;
+}
+.summary ul {
+  list-style-type: none;
+  padding-top: 7px;
+  padding-left: 0px;
+  padding-bottom: 227px;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.tech h2 {
+  font-size: 16px;
+}
+.tech p {
+  font-size: 11px;
+  line-height: 15px;
+  padding-top: 12px;
+}
+.tech ul {
+  padding-left: 14px;
+  padding-top: 6px;
+  line-height: 44px;
+  font-size: 12px;
+}
+
+.rightside {
+  margin-left: 600px;
+  margin-right: 493px;
+  background-color: blue;
+}

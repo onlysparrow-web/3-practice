@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link href="style.css" rel="stylesheet" />
+  <link href="styles.css" rel="stylesheet" />
+  <link href="reset.css" rel="stylessheet" />
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -8,55 +9,72 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
   <head>
-    <title>Pradeep's Resume</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pradeep's resume</title>
   </head>
   <body>
-    <div class="leftside">
-      <h1 id="main-title">Pradeep.N</h1>
-      <h1>Professional Title</h1>
-      <div id="link-details">
-        <div>
-          <i class="fa-solid fa-phone"></i>
-          <a href="tel:8610137410">8610137410</a>
-        </div>
-        <div>
-          &#9993;
-          <a href="mailto:npradeep199669@gmail.com">npradeep199669@gmail.com</a>
-        </div>
-        <div>
-          <a href="https://goo.gl/maps/TmStS4m8KUbBumvT9">Tambaram,Chennai</a>
-        </div>
-        <div>
-          <a href="#">Linked in link here</a>
-        </div>
+    <div class="container">
+      <div class="leftside">
+        <h1 id="main-title">Pradeep.N</h1>
+        <h1 class="protitle">Professional Title</h1>
+        <nav id="navigation">
+          <div>
+            <i class="fa-solid fa-phone"></i>&nbsp;
+            <a href="tel:8610137410">8610137410</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>&nbsp;
+            <a href="mailto:npradeep199669@gmail.com">npradeep@gmail.com</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>&nbsp;
+            <a href="https://goo.gl/maps/TmStS4m8KUbBumvT9">Tambaram,Chennai</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-linkedin-in"></i>&nbsp;
+            <a href="#">Linked in link here</a>
+          </div>
+        </nav>
+        <section class="summary">
+          <h2 class="container">SUMMARY</h2>
+          <p><em>summary</em> <strong>paragraph</strong> to be writen here</p>
+          <h2>Key Skills</h2>
+          <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+          </ul>
+        </section>
+        <section class="tech">
+          <h2 class="container">TECHNICAL SKILLS</h2>
+          <p><strong>Languages:</strong>&nbsp;python,C and Java</p>
+          <ul>
+            <li>basic on html,css and js</li>
+            <li>Webdriver automation on selenium</li>
+            <li>build responsive website</li>
+            <li>more to come</li>
+          </ul>
+        </section>
       </div>
-      <h2>SUMMARY</h2>
-      <p><em>summary</em> <strong>paragraph</strong> to be writen here</p>
-      <h2>Key Skills</h2>
-      <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-      </ul>
-      <h2>TECHNICAL SKILLS</h2>
-      <p><strong>Languages known:</strong>python,C and Java</p>
-      <ul>
-        <li>basic on html,css and js</li>
-        <li>Webdriver automation on selenium</li>
-        <li>build responsive website</li>
-        <li>more to come</li>
-      </ul>
-      <h2>PROJECTS</h2>
+    </div>
+    <div class="rightside">
+      <h2 class="container">PROJECTS</h2>
       <ol>
         <li>first project</li>
         <li>pradeep</li>
         <li>second project</li>
         <li>third project</li>
       </ol>
-    </div>
-    <div class="rightside">
-      <h2>WORK EXPERIENCE</h2>
+
+      <h2 class="container">WORK EXPERIENCE</h2>
       <div class="para">
         <p>Worked as a production planner</p>
         <div class="para1">
@@ -101,7 +119,7 @@
           completion of finished products
         </li>
       </ul>
-      <h2>EDUCATION</h2>
+      <h2 class="container">EDUCATION</h2>
     </div>
   </body>
 </html>
